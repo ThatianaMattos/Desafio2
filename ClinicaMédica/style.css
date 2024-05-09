@@ -5,16 +5,12 @@ body {
     background-color: #f8bbd0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-
 }
 
 body img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 nav {
@@ -29,7 +25,6 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 
 nav ul li {
     display: inline;
@@ -53,15 +48,10 @@ header img {
     height: auto;
 }
 
-
 main {
-
     background-color: #f8bbd0;
-    /* Cor de fundo rosa claro */
     padding: 20px;
-    margin-bottom: 100px;
-    flex-grow: 1;
-
+    flex-grow: 1; /* Isso fará o conteúdo principal crescer para ocupar o espaço disponível */
 }
 
 main img {
@@ -77,13 +67,10 @@ img {
     margin-right: auto;
 }
 
-
 footer {
     background-color: #f06292;
     color: white;
     text-align: center;
     padding: 10px;
-    bottom: 0;
     width: 100%;
-    flex-shrink: 0;
 }
