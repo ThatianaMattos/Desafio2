@@ -52,6 +52,7 @@ main {
     background-color: #f8bbd0;
     padding: 20px;
     flex-grow: 1; /* Isso fará o conteúdo principal crescer para ocupar o espaço disponível */
+    overflow: auto;
 }
 
 main img {
@@ -67,7 +68,8 @@ img {
     margin-right: auto;
 }
 
-footer {
+
+#footer {
     background-color: #f06292;
     color: white;
     text-align: center;
